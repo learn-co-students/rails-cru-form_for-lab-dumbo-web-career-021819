@@ -1,0 +1,3 @@
+<h1>Song: <%= @song.name %></h1>
+<p><%= link_to "My Artist", Artist.find(@song.artist_id) %></p>
+<p><%= link_to "My Genre", Genre.find(@song.genre_id) %></p>
